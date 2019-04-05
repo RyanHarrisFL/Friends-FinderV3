@@ -15,8 +15,9 @@ app.use(express.json());
 app.use(express.static('public'));
 
 //Pointing to route files
-require("./app/routing/htmlRoutes")(app);
 require("./app/routing/apiRoutes")(app);
+require("./app/routing/htmlRoutes")(app);
+
 
 
 //starting server, so it can listen for our app requests.
