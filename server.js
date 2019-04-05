@@ -1,6 +1,5 @@
 // Requiring NPM packages
 var express = require("express");
-var path = require("path");
 
 //Creating express app. 
 var app = express();
