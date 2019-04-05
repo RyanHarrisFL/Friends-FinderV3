@@ -1,13 +1,15 @@
-var tableData = require("../data/friends");
+var friends = require("../data/friends");
 
-var hotNewFriends = [];
+//var hotNewFriends = [];
 
 module.exports = function(app) {
-  
-    app.get("/data/friends", function(req, res) {
-      res.json(tableData);
 
+    app.get("/api/friends", function(req, res) {
+      res.json(friends);
     });
+
   
 
 }
+
+
