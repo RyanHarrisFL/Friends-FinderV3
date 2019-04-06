@@ -1,4 +1,4 @@
-## Bamazon Store Application 
+## Friend Finder Application 
 
 **Contact:** ryanharrisfl@gmail.com
 
@@ -8,6 +8,11 @@
 * jQuery
 * Nodemon
 * NPM Express Package 
+* Heroku 
+* GitHub
+* HTML
+* CSS 
+* Bootstrap
 
 **Purpose of Project:** Get comfortable with routing utlizing and paths. 
 
